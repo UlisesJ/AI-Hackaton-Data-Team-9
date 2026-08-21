@@ -1,0 +1,1 @@
+"""Pipeline package for download → transcribe → score → export."""
