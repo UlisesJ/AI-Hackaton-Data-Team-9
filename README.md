@@ -83,22 +83,6 @@ No commitees `.env` ni `cookies.txt`.
 
 Los archivos de cada job quedan en `output/{job_id}/`.
 
-## Troubleshooting
-
-### `HTTP Error 403` al descargar de YouTube
-
-1. Refrescá cookies (Chrome logueado en YouTube):
-
-```bash
-./bin/yt-dlp --cookies-from-browser chrome --cookies cookies.txt \
-  --skip-download 'https://www.youtube.com/watch?v=jNQXAC9IVRw'
-```
-
-2. Confirmá el POT server: `curl http://127.0.0.1:4416/ping`
-3. O subí un MP4 local desde la UI
-
-Más detalle: [PO Token Guide](https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide)
-
 ## Fuera de alcance (MVP)
 
 - Auto-post a TikTok / Instagram / Shorts
