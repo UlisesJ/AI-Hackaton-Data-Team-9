@@ -506,12 +506,6 @@ input:focus {
   color: var(--muted);
 }
 
-.hashtags {
-  margin: 0 0 1rem;
-  color: var(--ink);
-  font-size: 0.85rem;
-}
-
 .actions {
   display: flex;
   flex-wrap: wrap;

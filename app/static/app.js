@@ -77,7 +77,6 @@ function renderClips(job) {
       <p class="clip-meta">Score ${Math.round(clip.score)} · ${formatTime(clip.start_sec)}–${formatTime(clip.end_sec)} · ${Math.round(clip.duration_sec)}s</p>
       <p class="clip-reason">${escapeHtml(clip.reason)}</p>
       <p class="clip-caption">${escapeHtml(clip.caption)}</p>
-      <p class="hashtags">${escapeHtml((clip.hashtags || []).join(" "))}</p>
       <div class="actions">
         <a href="/jobs/${job.id}/clips/${clip.id}" download>Download MP4</a>
         <a class="secondary" href="/jobs/${job.id}/clips/${clip.id}/srt" download>SRT</a>
